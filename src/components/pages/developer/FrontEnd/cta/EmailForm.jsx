@@ -28,7 +28,7 @@ const EmailForm = () => {
 										<input
 											type='text'
 											id='name'
-											class='border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-5 h-20 dark:placeholder-gray-400 dark:text-white bg-content'
+											className='border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-5 h-20 dark:placeholder-gray-400 dark:text-white bg-content'
 											placeholder='Name'
 											required
 										/>
@@ -37,7 +37,7 @@ const EmailForm = () => {
 										<input
 											type='email'
 											id='email'
-											class='border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-5 h-20 dark:placeholder-gray-400 dark:text-white bg-content'
+											className='border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-5 h-20 dark:placeholder-gray-400 dark:text-white bg-content'
 											placeholder='Email'
 											required
 										/>
@@ -45,7 +45,7 @@ const EmailForm = () => {
 									<div className='input-wrapper'>
 										<textarea
 											id='message'
-											class='border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-5 h-20 dark:placeholder-gray-400 dark:text-white bg-content h-[10rem]'
+											className='border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-5 h-20 dark:placeholder-gray-400 dark:text-white bg-content h-[10rem]'
 											placeholder='Message'
 											required
 										/>
