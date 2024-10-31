@@ -12028,8 +12028,8 @@ const Rv = (e, t) => {
 			children: e.children,
 		});
 	},
-	dn = "../../../public/Assets",
-	Dv = "../../../public",
+	dn = "Dokushaaa/RokiBoki1-Portfolio/assets",
+	Dv = "Dokushaaa/RokiBoki1-Portfolio",
 	Mv = () =>
 		f.jsx(f.Fragment, {
 			children: f.jsx("div", {
