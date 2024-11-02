@@ -12511,7 +12511,7 @@ const hn = () =>
 												className:
 													"w-full xl:px-10 pb-5 md:pb-0  text-center text-primary px-2 ~text-base/xl xl:!leading-loose xl:mx-auto px-0 xl:py-5 lg:mx-0",
 												children:
-													"Talented student with a flair for Graphic and Video Editing - Let collaborate to elevate your visual content and bring your ideas to life with captivating creativity",
+													"Crafting compelling graphics for business and branding that leave a lasting impression and drive success.",
 											}),
 										],
 									}),
@@ -12757,7 +12757,7 @@ const hn = () =>
 											className:
 												"w-full ~px-0/14 lg:w-2/3 text-center text-content ~pb-3/10 ~px-0/5 ~text-base/2xl leading-loose",
 											children:
-												"Crafting compelling graphics for business and branding that leave a lasting impression and drive success.",
+												"Talented student with a flair for Graphic and Video Editing - Let's collaborate to elevate your visual content and bring your ideas to life with captivating creativity",
 										}),
 									],
 								}),
