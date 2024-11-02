@@ -12757,7 +12757,7 @@ const hn = () =>
 											className:
 												"w-full ~px-0/14 lg:w-2/3 text-center text-content ~pb-3/10 ~px-0/5 ~text-base/2xl leading-loose",
 											children:
-												"Talented student with a flair for Graphic and Video Editing - Let collaborate to elevate your visual content and bring your ideas to life with captivating creativity",
+												"Crafting compelling graphics for business and branding that leave a lasting impression and drive success.",
 										}),
 									],
 								}),
@@ -13071,7 +13071,7 @@ const hn = () =>
 										}),
 										f.jsx("small", {
 											className: "pt-4 text-center md:text-end md:pr-8",
-											children: "©Roki - All Rights Reserved",
+											children: "©Charles Da - All Rights Reserved",
 										}),
 									],
 								}),
