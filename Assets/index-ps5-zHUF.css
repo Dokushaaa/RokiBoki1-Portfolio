@@ -320,27 +320,15 @@ video {
 }
 @font-face {
 	font-family: BTNREG;
-	src: url(/fonts/BTNREG.woff) format("woff");
-}
-@font-face {
-	font-family: BTNMED;
-	src: url(/fonts/BTNMED.woff) format("woff");
-}
-@font-face {
-	font-family: BTNTHIN;
-	src: url(/fonts/BTNTHIN.woff) format("woff");
+	src: url(/fonts/Kanit.ttf) format("ttf");
 }
 @font-face {
 	font-family: HEADERREG;
-	src: url(/fonts/HEADERREG.woff) format("woff");
-}
-@font-face {
-	font-family: TEXTITALIC;
-	src: url(/fonts/TEXTITALIC.woff) format("woff");
+	src: url(/fonts/DelaGothicOne.ttf) format("ttf");
 }
 @font-face {
 	font-family: TEXTREG;
-	src: url(/fonts/TEXTREG.woff) format("woff");
+	src: url(/fonts/Inter.ttf) format("ttf");
 }
 html {
 	scroll-behavior: smooth;
