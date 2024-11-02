@@ -323,8 +323,8 @@ video {
 	src: url(/fonts/Kanit.woff) format("woff");
 }
 @font-face {
-	font-family: 'DelaGothicOne';
-	src: url(/fonts/DelaGothicOne.woff) format("woff");
+	font-family: 'Dela Gothic One';
+	src: url(/fonts/Dela Gothic One.woff) format("woff");
 }
 @font-face {
 	font-family: 'Inter';
@@ -357,7 +357,7 @@ h1,
 h2,
 h3 {
 	margin-bottom: 0;
-	font-family: "DelaGothicOne", serif;
+	font-family: "Dela Gothic One", serif;
 	--tw-text-opacity: 1;
 	color: rgb(var(--header) / var(--tw-text-opacity));
 }
@@ -1393,7 +1393,7 @@ main {
 	text-align: justify;
 }
 .font-regularHeader {
-	font-family: "DelaGothicOne", serif;
+	font-family: "Dela Gothic One", serif;
 }
 .text-2xl {
 	font-size: 1.5rem;
