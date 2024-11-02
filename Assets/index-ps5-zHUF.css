@@ -334,7 +334,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: "Inter";
+	font-family: "Inter", serif;
 	--tw-text-opacity: 1;
 	color: rgb(var(--content) / var(--tw-text-opacity));
 	transition-property: all;
@@ -357,32 +357,32 @@ h1,
 h2,
 h3 {
 	margin-bottom: 0;
-	font-family: "DelaGothicOne";
+	font-family: "DelaGothicOne", serif;
 	--tw-text-opacity: 1;
 	color: rgb(var(--header) / var(--tw-text-opacity));
 }
 h4,
 h5,
 h6 {
-	font-family: "Inter";
+	font-family: "Inter", serif;
 	letter-spacing: 0.1em;
 	--tw-text-opacity: 1;
 	color: rgb(var(--header) / var(--tw-text-opacity));
 }
 p {
 	margin-bottom: 0.5rem;
-	font-family: "Inter";
+	font-family: "Inter", serif;
 }
 table {
 	width: 100%;
-	font-family: "Inter";
+	font-family: "Inter", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
 }
 table th {
 	padding: 0.75rem;
 	text-align: left;
-	font-family: "Inter";
+	font-family: "Inter", serif;
 }
 table td {
 	border-bottom-width: 1px;
@@ -678,7 +678,7 @@ main {
 	padding-top: 0.5rem;
 }
 .extendedBtn p {
-	font-family: "Kanit";
+	font-family: "Kanit", serif;
 }
 .extendedBtn p {
 	font-weight: 500;
@@ -783,7 +783,7 @@ main {
 	text-align: left;
 }
 .RFGB a ul li p {
-	font-family: "Kanit";
+	font-family: "Kanit", serif;
 }
 .RFGB a ul li p {
 	font-size: 1rem;
@@ -1393,7 +1393,7 @@ main {
 	text-align: justify;
 }
 .font-regularHeader {
-	font-family: "DelaGothicOne";
+	font-family: "DelaGothicOne", serif;
 }
 .text-2xl {
 	font-size: 1.5rem;
