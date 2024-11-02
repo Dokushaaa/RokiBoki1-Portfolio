@@ -320,15 +320,15 @@ video {
 }
 @font-face {
 	font-family: BTNREG;
-	src: url(/fonts/Kanit.ttf) format(".ttf");
+	src: url(/fonts/Kanit.woff) format("woff");
 }
 @font-face {
 	font-family: HEADERREG;
-	src: url(/fonts/DelaGothicOne.ttf) format(".ttf");
+	src: url(/fonts/DelaGothicOne.woff) format("woff");
 }
 @font-face {
 	font-family: TEXTREG;
-	src: url(/fonts/Inter.ttf) format(".ttf");
+	src: url(/fonts/Inter.woff) format("woff");
 }
 html {
 	scroll-behavior: smooth;
