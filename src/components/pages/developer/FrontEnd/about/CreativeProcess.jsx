@@ -11,7 +11,7 @@ const CreativeProcess = () => {
 
 			<section
 				id='creativeProcess'
-				className='bg-gray overflow-x-auto h-auto lg:h-screen'>
+				className='bg-gray text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
 				<div className='flex items-center gap-5 text-bg lg:flex-row flex-col text-center justify-center w-full h-auto h-full'>
 					<div className='left container w-full flex flex-col items-center transition-all lg:w-1/2 ~px-2/5 pt-10 lg:pt-0'>
 						<h4 className='text-primary pb-5 md:pb-3 lg:pb-4 font-semibold uppercase font-semibold text-base w-full text-center !tracking-name'>

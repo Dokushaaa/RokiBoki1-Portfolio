@@ -10,7 +10,7 @@ const ProfileDescription = () => {
 			<Divider />
 			<section
 				id='profileDescription'
-				className='bg-gray transition-all overflow-x-auto h-auto lg:h-screen w-full'>
+				className='bg-gray text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
 				<div className='flex flex-col lg:flex-row justify-between items-center h-full w-full'>
 					<div className='left w-full lg:w-1/2 lg:px-0  size-full img-block h-full w-full lg:w-1/2 bg-cover bg-no-repeat order-2 lg:order-1'>
 						<img

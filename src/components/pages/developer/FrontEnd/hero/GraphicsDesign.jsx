@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../../../../partials/Button";
 import { ImgUrlAssets } from "../../../../helpers/functions-general";
 import Divider from "../../../../partials/Divider";
+import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
+import { FaArrowDown } from "react-icons/fa";
 
 const GraphicsDesign = () => {
 	return (
@@ -9,7 +11,7 @@ const GraphicsDesign = () => {
 			{/* no divider */}
 			<section
 				id='graphicsDesign'
-				className='bg-accent text-primary overflow-x-auto w-full h-auto lg:h-screen'>
+				className='bg-accent text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
 				<div className='flex h-full items-center text-primary lg:flex-row flex-col text-center justify-center'>
 					<div className='left flex flex-col items-center gap-2 w-full lg:w-1/2 py-5 lg:py-0'>
 						<div className='left-text flex w-full flex-col items-center gap-2 px-10 pt-20 lg:pt-0'>
@@ -56,6 +58,14 @@ const GraphicsDesign = () => {
 								bgType={"content"}
 								textType={"bg"}
 							/>
+							{/* <HashLink
+								to='#videoEditing'
+								className={``}>
+								<button className={`extendedBtn bg-accent `}>
+									<p className=''>See More</p>
+									<FaArrowDown />
+								</button>
+							</HashLink> */}
 						</div>
 					</div>
 					<div className='right lg:w-1/2 img-block size-full lg:w-1/2 h-full'>

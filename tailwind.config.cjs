@@ -88,12 +88,9 @@ export default {
 				"auto-fill": "repeat(auto-fit, minmax(300px, 1fr))",
 			},
 			fontFamily: {
-				regularBtn: "BTNREG",
-				mediumBtn: "BTNMED",
-				thinBtn: "BTNTHIN",
-				regularHeader: "HEADERREG",
-				itlaicText: "TEXTITALIC",
-				regularText: "TEXTREG",
+				DelaGothicOne: "Dela Gothic One",
+				Kanit: "Kanit",
+				Inter: "Inter",
 			},
 			keyframes: {
 				rotate: {

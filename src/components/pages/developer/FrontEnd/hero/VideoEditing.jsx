@@ -1,6 +1,6 @@
 import React from "react";
 import { ImgUrlAssets } from "../../../../helpers/functions-general";
-import Divider from "../../../../partials/Divider";
+
 import { FaArrowDown } from "react-icons/fa";
 import { HashLink } from "react-router-hash-link";
 const VideoEditing = () => {
@@ -8,9 +8,9 @@ const VideoEditing = () => {
 		<>
 			<section
 				id='videoEditing'
-				className='bg-gray transition-all overflow-x-auto h-auto max-h-[1440px] w-full'>
-				<div className='w-full flex flex-col lg:flex-row items-center text-bg lg:~py-0/28'>
-					<div className='left ~px-2/5 justify-start md:order-2 order-1 flex flex-col items-center lg:items-left w-full md:pb-10 lg:pb-0'>
+				className='bg-gray text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
+				<div className='w-full flex flex-col lg:flex-row items-center text-bg landscape:lg:~py-0/24 portrait:lg:my-[17.5rem]'>
+					<div className='left ~px-2/5 justify-start md:order-2 order-1 flex flex-col items-center lg:items-left w-full md:pb-10 lg:pb-0 h-full'>
 						<h4 className='text-primary pb-5 md:pb-3 lg:pb-4 font-semibold uppercase font-semibold text-base w-full text-center !tracking-name pt-20 lg:pt-0'>
 							SEAMLESS EDITS, STUNNING VISUALS.
 						</h4>
@@ -27,11 +27,11 @@ const VideoEditing = () => {
 							</HashLink>
 						</div>
 					</div>
-					<div className='right md:order-1 order-2 w-full flex items-center justify-end'>
+					<div className='right md:order-1 order-2 w-full flex items-center justify-end h-full portrait:lg:px-2'>
 						<video
 							// controls
 							// autoPlay
-							className='md:size-[50rem] w-full size-full'>
+							className='md:size-[50rem] portrait:lg:size-full w-full size-full'>
 							<source
 								src={`${ImgUrlAssets}/videoEditing.mp4`}
 								type='video/mp4'

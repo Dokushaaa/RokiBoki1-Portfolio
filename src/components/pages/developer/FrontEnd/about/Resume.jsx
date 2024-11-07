@@ -10,7 +10,7 @@ const Resume = () => {
 			<Divider />
 			<section
 				id='resumeCV'
-				className='bg-gray transition-all overflow-x-auto h-auto lg:h-screen w-full'>
+				className='bg-gray text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
 				<div className='flex flex-col lg:flex-row justify-between lg:gap-5 items-center h-full w-full'>
 					<div className='left w-full lg:w-1/2 size-full img-zoom h-full w-full  scale-90 lg:scale-75 order-2 lg:order-1 '>
 						<img
@@ -23,7 +23,7 @@ const Resume = () => {
 						<h4 className='text-primary pb-5 md:pb-3 lg:pb-4 font-semibold uppercase font-semibold text-base w-full text-center !tracking-name'>
 							cv
 						</h4>
-						<h2 className='uppercase text-center pb-5 xl:pb-5 leading-none w-auto text-center text-primary ~text-3xl/5xl xl:text-7xl w-full xl:px-14'>
+						<h2 className='uppercase text-center pb-5 xl:pb-5 leading-none w-auto text-center text-primary ~text-3xl/5xl xl:text-7xl  w-full xl:px-14'>
 							resume
 						</h2>
 						<p className='w-full xl:px-10 pb-5 md:pb-0  text-center text-primary px-2 ~text-base/xl xl:!leading-loose xl:mx-auto px-0 lg:py-5 lg:mx-0 '>

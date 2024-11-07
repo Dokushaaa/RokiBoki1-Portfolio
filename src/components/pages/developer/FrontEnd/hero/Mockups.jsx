@@ -10,8 +10,8 @@ const Mockups = () => {
 			<Divider />
 			<section
 				id='mockups'
-				className='bg-accent transition-all overflow-x-auto h-auto lg:h-screen w-full'>
-				<div className='flex flex-col lg:flex-row justify-between gap-5 items-center h-full w-full'>
+				className='bg-accent text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
+				<div className='flex flex-col lg:flex-row justify-between landscape:gap-5 items-center h-full w-full'>
 					<div className='left w-full order-2 lg:order-1 lg:w-1/2  lg:px-0 order-2 lg:order-1 size-full img-block h-full w-full lg:w-1/2 bg-cover bg-no-repeat pt-20 lg:pt-0'>
 						<img
 							className='size-full lg:flex lg:object-fill object-cover'

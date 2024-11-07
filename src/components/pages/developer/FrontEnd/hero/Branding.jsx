@@ -13,8 +13,8 @@ const Branding = () => {
 
 			<section
 				id='branding'
-				className='bg-accent overflow-x-auto h-auto lg:h-screen'>
-				<div className='flex items-center bg-accent gap-5 text-bg lg:flex-row flex-col text-center justify-center w-full h-auto h-full'>
+				className='bg-accent text-primary overflow-x-auto w-full h-auto portrait:lg:h-screen'>
+				<div className='flex items-center bg-accent landscape:gap-5 text-bg lg:flex-row flex-col text-center justify-center w-full h-auto h-full'>
 					<div className='left order-2 lg:order1 container w-full flex flex-col items-center transition-all  lg:w-1/2 pt-20 lg:pt-0 ~px-2/5'>
 						<h4 className='text-primary pb-5 md:pb-3 lg:pb-4 font-semibold uppercase font-semibold text-base w-full text-center !tracking-name'>
 							SEAMLESS EDITS, STUNNING VISUALS.

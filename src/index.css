@@ -30,41 +30,12 @@
 
 /* parent base */
 @layer base {
-	@font-face {
-		font-family: "BTNREG";
-		src: url(/fonts/BTN-REG.woff) format("woff");
-	}
-
-	@font-face {
-		font-family: "BTNMED";
-		src: url(/fonts/BTN-MED.woff) format("woff");
-	}
-
-	@font-face {
-		font-family: "BTNTHIN";
-		src: url(/fonts/BTN-THIN.woff) format("woff");
-	}
-
-	@font-face {
-		font-family: "HEADERREG";
-		src: url(/fonts/HEADER-REG.woff) format("woff");
-	}
-
-	@font-face {
-		font-family: "TEXTITALIC";
-		src: url(/fonts/TEXT-ITALIC.woff) format("woff");
-	}
-
-	@font-face {
-		font-family: "TEXTREG";
-		src: url(/fonts/TEXT-REG.woff) format("woff");
-	}
 	html {
 		@apply scroll-smooth;
 	}
 
 	body {
-		@apply text-content font-regularText transition-all duration-75;
+		@apply text-content font-Inter transition-all duration-75;
 	}
 
 	a {
@@ -82,7 +53,7 @@
 	h1,
 	h2,
 	h3 {
-		@apply text-header font-regularHeader mb-0;
+		@apply text-header font-DelaGothicOne mb-0;
 	}
 
 	/* todo last work before sleep */
@@ -93,19 +64,19 @@
 	h4,
 	h5,
 	h6 {
-		@apply text-header font-regularText tracking-widest;
+		@apply text-header font-Inter tracking-widest;
 	}
 
 	p {
-		@apply mb-2 font-regularText;
+		@apply mb-2 font-Inter;
 	}
 
 	table {
-		@apply w-full text-base font-regularText;
+		@apply w-full text-base font-Inter;
 	}
 
 	table th {
-		@apply p-3 font-regularText text-left;
+		@apply p-3 font-Inter text-left;
 	}
 
 	table td {
@@ -226,7 +197,7 @@
 	.extendedBtn {
 		@apply ~px-7/14  py-4 rounded-full w-full flex flex-row ~gap-12/32 hover:scale-110 transition-all duration-500 justify-between items-center text-black;
 		p {
-			@apply pt-2 font-regularBtn !leading-none w-full uppercase tracking-extendedBtn font-medium;
+			@apply pt-2 font-Kanit !leading-none w-full uppercase tracking-extendedBtn font-medium;
 		}
 		svg {
 			@apply font-semibold text-2xl;
@@ -240,7 +211,7 @@
 	.RFGB {
 		@apply duration-500 transition-all ease-in-out py-3 rounded-full bg-primary text-accent px-6 md:px-5 lg:px-0 hover:scale-110 md:py-3 lg:hover:scale-105 transition-all duration-500 ease-in-out;
 		a ul li p {
-			@apply text-base uppercase tracking-name lg:tracking-normal xl:tracking-name font-regularBtn text-left;
+			@apply text-base uppercase tracking-name lg:tracking-normal xl:tracking-name font-Kanit text-left;
 		}
 	}
 
