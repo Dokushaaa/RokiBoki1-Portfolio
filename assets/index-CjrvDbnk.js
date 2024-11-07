@@ -12028,7 +12028,7 @@ const Rv = (e, t) => {
 			children: e.children,
 		});
 	},
-	dn = "../assets",
+	dn = "./assets",
 	Dv = "../",
 	Mv = () =>
 		f.jsx(f.Fragment, {
