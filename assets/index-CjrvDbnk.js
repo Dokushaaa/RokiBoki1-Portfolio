@@ -12029,7 +12029,7 @@ const Rv = (e, t) => {
 		});
 	},
 	// todo : bookmark
-	dn = "../assets",
+	dn = "assets",
 	Dv = "../",
 	Mv = () =>
 		f.jsx(f.Fragment, {
