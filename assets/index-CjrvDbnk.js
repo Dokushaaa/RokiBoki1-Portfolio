@@ -12028,7 +12028,7 @@ const Rv = (e, t) => {
 			children: e.children,
 		});
 	},
-    // todo : bookmark
+	// todo : bookmark
 	dn = "../assets",
 	Dv = "../",
 	Mv = () =>
@@ -12555,7 +12555,7 @@ const hn = () =>
 								className: "right lg:w-1/2 img-block size-full lg:w-1/2 h-full",
 								children: f.jsx("img", {
 									className: "lg:flex lg:size-full object-cover",
-                                    // todo: example
+									// todo: example
 									src: `${dn}/graphicsDes.jpg`,
 									alt: "",
 								}),
