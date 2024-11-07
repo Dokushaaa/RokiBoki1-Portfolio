@@ -12028,7 +12028,8 @@ const Rv = (e, t) => {
 			children: e.children,
 		});
 	},
-	dn = "./assets",
+    // todo : bookmark
+	dn = "../assets",
 	Dv = "../",
 	Mv = () =>
 		f.jsx(f.Fragment, {
@@ -12554,6 +12555,7 @@ const hn = () =>
 								className: "right lg:w-1/2 img-block size-full lg:w-1/2 h-full",
 								children: f.jsx("img", {
 									className: "lg:flex lg:size-full object-cover",
+                                    // todo: example
 									src: `${dn}/graphicsDes.jpg`,
 									alt: "",
 								}),
